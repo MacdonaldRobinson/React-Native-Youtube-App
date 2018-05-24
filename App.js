@@ -2,7 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types'
 import { ScrollView, View, Text, Button, TextInput, Image, Modal, TouchableHighlight, WebView } from 'react-native';
 
-class RenderItem extends React.Component {
+class RenderItem extends React.Component 
+{
     constructor(props) {
         super(props);
         this.onPress = this.onPress.bind(this);
@@ -34,7 +35,8 @@ class RenderItem extends React.Component {
     }
 }
 
-function PreviewPanel(props) {
+function PreviewPanel(props) 
+{
     if (props.rootState.canSearch) {
         return (
             <View>
@@ -53,7 +55,8 @@ function PreviewPanel(props) {
     return null;
 }
                 
-class SearchBar extends React.Component {
+class SearchBar extends React.Component 
+{
     constructor(props) 
     {
         super(props);
@@ -113,7 +116,8 @@ class SearchBar extends React.Component {
         }
     }
                             
-class ModalWindow extends React.Component {
+class ModalWindow extends React.Component 
+{
         constructor(props) {
             super(props);
             this.onPress = this.onPress.bind(this);
