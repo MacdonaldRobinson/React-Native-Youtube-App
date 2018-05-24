@@ -1,0 +1,15 @@
+{
+    "expo": {
+        "sdkVersion": "27.0.0",
+        "name": "Youtube - Test",
+        "icon": "./YoutubeLogoLink.png",
+        "version": "1.0.0",
+        "slug": "youtube-test",
+        "ios": {
+            "bundleIdentifier": "com.mac.youtube"
+        },
+        "android": {
+            "package": "com.mac.youtube"
+        }
+    }
+}
