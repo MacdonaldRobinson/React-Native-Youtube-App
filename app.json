@@ -10,6 +10,9 @@
         },
         "android": {
             "package": "com.mac.youtube"
-        }
+        },
+        "androidStatusBar": {
+            "backgroundColor": "#000000"
+        }        
     }
 }
